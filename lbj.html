@@ -1,0 +1,241 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="lbj.css">
+
+    </head>
+    <body>
+
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <div class="ans">
+            1.  &nbsp;canvas <br>
+            2.  &nbsp;document object model <br>
+            3.  &nbsp;404 not found <br>
+            4.  &nbsp;web storage object <br>
+            
+            5.  &nbsp;11
+            <br>
+
+        </div>
+       
+
+    <div id="lbj">
+        <div class="ans">
+            <table>
+                <tr>
+                 <td>
+                   Username
+                 </td>
+                 <td><input class="six_input" type="text"></td>
+                </tr>
+                <tr>
+                 <td>
+                 Password
+                 </td>
+                 <td><input class="six_input" type="text"></td>
+                </tr>
+         
+              </table>
+         
+              <input type="checkbox" id="remember" name="remember" >
+              <label for="remember">Remember me</label>
+              <input id="six_submit" type="submit" value="Login">
+         
+            
+        </div>
+        <div class="ans">
+              <div>
+                <span>Username</span>
+                
+                 <input class="six_input" type="text"></td>
+              </div>
+                 
+                <div id="tomove">
+                      
+                 <span>Password</span>
+                
+                 <input class="six_input" type="text"></td>
+                </div>
+                 
+               
+              <br>
+              <input class="six_input" type="checkbox" id="remember" name="remember" >
+              <label for="remember">Remember me</label>
+              <input id="six_submit" type="submit" value="Login">
+         
+            
+        
+
+        </div>
+        <div class="form">
+            <div class="login">
+               <img src="linkedin.png">
+               <br>
+               Autofill your information
+
+            </div>
+            <div class="inputs">
+                <div class="myinput">
+                    First Name  <span class="required">*</span>
+                    <input type="text">
+
+                </div>
+                <div class="myinput">
+                    Last Name  <span class="required">*</span>
+                    <input type="text">
+
+                </div>
+                <div class="myinput">
+                    Email-id Name <span class="required">*</span>
+                    <input type="text">
+
+                </div>
+                <div class="myinput">
+                   Contact Number
+                    <input type="text">
+
+                </div>
+                <div class="myinput">
+                    Your Company's Name <span class="required">*</span>
+                    <input type="text">
+
+                </div>
+                <div class="myinput">
+                    Country 
+                    <input list="country" name="browser" id="browser">
+                    <datalist id="country">
+                      <option value="uganda">
+                      <option value="syria">
+                      <option value="austria">
+                      <option value="yemen">
+                      <option value="russia">
+                    </datalist>
+
+                </div>
+                <div class="myinput">
+                    Your Industry <span class="required">*</span>
+                    <input list="industry" name="browser" id="browser">
+                    <datalist id="industry">
+                      <option value="lti">
+                      <option value="fsdf">
+                      <option value="ds">
+                      <option value="dsf">
+                      <option value="tgr">
+                    </datalist>
+                </div>
+                <div class="myinput">
+                    Services/Technologies interested in <span class="required">*</span>
+                    <input list="services" name="browser" id="browser">
+                    <datalist id="services">
+                      <option value="java">
+                      <option value="python">
+                      <option value="c++">
+                      <option value="go">
+                      <option value="javascript">
+                    </datalist>
+
+                </div>
+                <div class="myinput">
+                    Referred by 
+                    <input list="refer" name="browser" id="browser">
+                    <datalist id="refer">
+                      <option value="check">
+                      <option value="the">
+                      <option value="a">
+                      <option value="tag">
+                    </datalist>
+                </div>
+
+            </div>
+            <div class="textarea">
+                Let us know how we can help you
+               <textarea name="" id="" cols="30" rows="10"></textarea>
+               
+            </div>
+            <div class="check">
+                <input type="checkbox" id="remember" name="remember" > I agreed to receive communication from LTI <br>
+                &nbsp;&nbsp; &nbsp;&nbsp; refer to <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> LTI privacy policy</a> to know more about how we maintain privacy about your data 
+            </div>
+            <div class="submit">
+                <input id="last_submit" type="submit" value="Submit">
+            </div>
+           
+
+
+        </div>
+        <div class="ans">
+            
+        <div>
+            <progress id="file" value="68" max="100"> 32% </progress>
+        </div> 
+        <div>
+            <input type="number" name="" id="">
+        </div>
+        <div>
+            <input type="range">
+        </div>
+        <div>
+            <input list="title" name="browser" id="browser">
+            <datalist id="title">
+              <option value="Mr">
+              <option value="Dr">
+              <option value="Mrs">
+              <option value="Mrs">
+             
+            </datalist>
+        </div>
+      </div>
+        
+      <div class="calculator">
+        <div class="inn">
+           1st Number:  &nbsp; <input type="text" id="first"> <br>
+        </div>
+        <div class="inn">
+           2nd Number: &nbsp;<input type="text" id="second"> <br>
+
+        </div>
+
+        <div>
+           <button id="first_b" onclick="function1()">Multiply</button>  &nbsp;
+           <button id="second_b" onclick="function2()">Divide</button>
+        </div>
+        <p>The result is :</p>
+        <div id="display">
+
+        </div>
+
+        
+
+      </div>
+     
+    </div>
+
+
+
+  <script>
+     function function1(){
+          let a=document.getElementById("first").value;
+          a=parseInt(a);
+          let b=document.getElementById("second").value;
+          b=parseInt(b);
+          
+          let sum=a*b;
+          document.getElementById("display").innerText=sum;
+
+ 
+      }
+      function function2(){
+          let a=document.getElementById("first").value;
+          a=parseInt(a);
+          let b=document.getElementById("second").value;
+          b=parseInt(b);
+          
+          let sum=a/b;
+          document.getElementById("display").innerText=sum;
+
+ 
+      }
+  </script>
+       
+    </body>
+    
+</html>
